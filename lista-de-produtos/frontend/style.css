@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    background-color: #f5f5f5; /* Cor de fundo cinza claro */
+    color: #333; /* Cor do texto cinza escuro */
+    margin: 0; /* Remove as margens padrão */
+    padding: 20px; /* Adiciona um espaço interno */
+    display: flex; /* Utiliza flexbox para layout */
+    flex-direction: column; /* Organiza os elementos em uma coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+}
+
+/* Estiliza os títulos de nível 1 */
+h1 {
+    color: #007BFF; /* Cor azul */
+    margin-bottom: 20px; /* Adiciona uma margem inferior */
+}
+
+/* Estiliza o container de produtos */
+.produtos-container {
+    display: flex; /* Utiliza flexbox para layout */
+    flex-wrap: wrap; /* Permite que os elementos envolvam para a próxima linha */
+    gap: 20px; /* Adiciona um espaço entre os elementos */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+}
+
+/* Estiliza cada card de produto */
+.produto-card {
+    background-color: #ffffff; /* Cor de fundo branca */
+    padding: 15px; /* Adiciona um espaço interno */
+    border-radius: 8px; /* Arredonda os cantos */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+    width: 300px; /* Define a largura do card */
+}
+
+/* Estiliza os títulos de nível 2 dentro dos cards */
+.produto-card h2 {
+    margin-top: 0; /* Remove a margem superior */
+    color: #007BFF; /* Cor azul */
+}
+
+/* Estiliza os parágrafos dentro dos cards */
+.produto-card p {
+    margin: 5px 0; /* Define as margens superior e inferior */
+}
+
+/* Estiliza o texto do fabricante */
+.produto-card .fabricante {
+    font-style: italic; /* Define a fonte como itálico */
+    color: #555; /* Cor cinza */
+}
+
+.produto-form {
+    background-color: #ffffff; /* Cor de fundo branca */
+    padding: 20px; /* Adiciona um espaço interno */
+    border-radius: 8px; /* Arredonda os cantos */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+    margin-bottom: 20px; /* Adiciona uma margem inferior */
+    width: 100%; /* Define a largura como 100% */
+    max-width: 400px; /* Limita a largura máxima a 400 pixels */
+}
+
+/* Estiliza os grupos de campos do formulário */
+.form-group {
+    margin-bottom: 15px; /* Adiciona uma margem inferior */
+    display: flex; /* Utiliza flexbox para layout */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    justify-content: center; /* Alinha os itens no centro horizontalmente */
+    flex-direction: column; /* Organiza os elementos em uma coluna */
+    gap: 10px; /* Adiciona um espaço entre os elementos */
+}
+
+/* Estiliza os rótulos dos campos */
+.form-group label {
+    display: block; /* Define como bloco */
+    margin-bottom: 5px; /* Adiciona uma margem inferior */
+    color: #007BFF; /* Cor azul */
+    font-weight: bold; /* Define o estilo da fonte como negrito */
+}
+
+/* Estiliza os campos de entrada de texto */
+.form-group input {
+    width: 100%; /* Define a largura como 100% */
+    padding: 8px; /* Adiciona um espaço interno */
+    border: 1px solid #ccc; /* Adiciona uma borda cinza */
+    border-radius: 4px; /* Arredonda os cantos */
+}
+
+/* Estiliza o botão de envio */
+button[type="submit"] {
+    background-color: #007BFF; /* Cor de fundo azul */
+    color: #fff; /* Cor do texto branca */
+    padding: 10px 15px; /* Adiciona um espaço interno */
+    border: none; /* Remove a borda */
+    border-radius: 4px; /* Arredonda os cantos */
+    cursor: pointer; /* Define o cursor como ponteiro */
+    font-size: 16px; /* Define o tamanho da fonte */
+}
+
+/* Estiliza o botão de envio ao passar o mouse */
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Altera a cor de fundo para um tom mais escuro */
+}
